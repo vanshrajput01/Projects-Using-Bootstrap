@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 .navbar{
     color: rgb(84, 1, 186);
@@ -79,6 +83,14 @@ hr{
     height: 400px;
 }
 
+
+.Slider-section-heading{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
 .slider-container{
     width: 100%;
     height: 400px; 
@@ -87,6 +99,7 @@ hr{
     align-items: center;
 
 }
+
 
 
 .slider-container01{
@@ -108,7 +121,62 @@ hr{
     width: 45vw;
 }
 
+.carousel-indicators{
+    padding-top: 450px;
+    height: 20vh;
+}
+.Card-Section{
+    padding:0px 100px;
+    margin-top: 150px;
+}
 
+.Card-Section .card img{
+    height: 200px;
+}
+
+.Card-Section{
+    margin-bottom: 50px;
+
+
+}
+
+.second-slider-section{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 50px;
+
+}
+
+.second-slider-container{
+    width: 100%;  
+    height: 600px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-slider-container div {
+    width: 60%;
+}
+
+.second-slider-container div img{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.second-slider-section-heading{
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
 
 
 
@@ -177,6 +245,32 @@ hr{
     .carousel-control-next{
         margin-top: 100px;
 
+    }
+
+    .Card-Section{
+        padding: 20px 20px;
+        margin-top: 200px;
+    }
+
+    .second-slider-container{
+        width: 100%;  
+        height: 600px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .second-slider-container div {
+        width: 90%;
+    }
+    
+    .second-slider-container div img{
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
     }
 
 
