@@ -255,19 +255,62 @@ hr{
     padding: 10px 0px;
     width: 27%;
     border-radius: 15px;
-    border: 2px solid orange;
-    background-color: orange;
+    border: 2px solid #5401ba;
+    background-color: #5401ba;
     color: #fff;
 }
 
 
 .Subscribe-section-container button:hover{
-    border: 1.5px solid orange;
+    border: 1.5px solid #5401ba;
     background-color: #fff;
-    color: orange;
+    color: #5401ba;
     transition: all 0.5s ease-in-out;
 
 }
+
+.Footer-section{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.Footer-section-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Footer-section-container p{
+    width: 90%;
+    text-align: center;
+}
+
+.Footer-section-container div i{
+    font-size: x-large;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 1px solid #5401ba;
+    border-radius: 50%;
+    color: #5401ba;
+}
+
+.Footer-section-container div span{
+    cursor: pointer;
+
+}
+
+.Footer-section-container div span:hover{
+    color: #5401ba;
+    text-decoration: double;
+
+}
+
 
 
 
