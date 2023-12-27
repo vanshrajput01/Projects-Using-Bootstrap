@@ -140,6 +140,120 @@ header hr{
 }
 
 
+.Photos-Gallery{
+    margin-top: 50px;
+}
+
+.Photos-Gallery-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.Photos-Gallery-container01 img{
+    border-radius: 5px;
+
+    width: 250px;
+    height: 200px;
+    margin-bottom: -25px;
+}
+
+.Subscribe-section{
+    background-color: rgb(236, 236, 236);
+    margin-top: 100px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.Subscribe-section-heading{
+    padding: 10px 50px;
+    width: 100vw;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+
+.Subscribe-section-container{
+    padding: 10px 50px;
+    width: 100vw;
+
+}
+
+.Subscribe-section-container input{
+    padding: 10px 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.Subscribe-section-container button{
+    padding: 10px 0px;
+    width: 27%;
+    border-radius: 15px;
+    border: 2px solid #5401ba;
+    background-color: #5401ba;
+    color: #fff;
+}
+
+
+.Subscribe-section-container button:hover{
+    border: 1.5px solid #5401ba;
+    background-color: #fff;
+    color: #5401ba;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.Footer-section{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.Footer-section-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Footer-section-container p{
+    width: 90%;
+    text-align: center;
+}
+
+.Footer-section-container div i{
+    font-size: x-large;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 1px solid #5401ba;
+    border-radius: 50%;
+    color: #5401ba;
+}
+
+.Footer-section-container div span{
+    cursor: pointer;
+
+}
+
+.Footer-section-container div span:hover{
+    color: #5401ba;
+    text-decoration: double;
+
+}
+
+
+
 @media (max-width : 992px) {
     .navbar-nav{
         display: flex;
@@ -163,6 +277,41 @@ header hr{
     }
     .italic-content hr{
         visibility: hidden;
+    }
+    .Photos-Gallery{
+        margin-top: 50px;
+
+    }
+
+
+    .Photos-Gallery-containers{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .Photos-Gallery-container01{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Photos-Gallery-container01 img{
+        border-radius:10px ;
+       margin-bottom: 5px; 
+
+        width: 350px;
+        height: 300px;
+    }
+    .Subscribe-section-heading{
+        padding: 0px 20px;
+
+    }
+    .Subscribe-section-container{
+        margin-top: 40px;
+        padding: 0px 20px;
     }
 
 }
