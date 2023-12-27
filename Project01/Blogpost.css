@@ -142,6 +142,7 @@ header hr{
 
 .Photos-Gallery{
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .Photos-Gallery-containers{
@@ -159,6 +160,11 @@ header hr{
     width: 250px;
     height: 200px;
     margin-bottom: -25px;
+}
+
+.share-icons i{
+    padding-right: 20px;
+    font-size: x-large;
 }
 
 .Subscribe-section{
